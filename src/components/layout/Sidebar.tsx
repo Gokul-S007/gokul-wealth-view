@@ -33,9 +33,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
       <div className="flex h-16 items-center justify-between px-4 border-b border-sidebar-border">
         <Link to="/" className="flex items-center">
           <div className="h-8 w-8 rounded bg-wealth-blue-400 flex items-center justify-center mr-2">
-            <span className="text-white font-bold">W</span>
+            <span className="text-white font-bold">F</span>
           </div>
-          <h1 className="text-xl font-bold text-sidebar-foreground">Wealth View</h1>
+          <h1 className="text-xl font-bold text-sidebar-foreground">Finguru</h1>
         </Link>
         <button
           onClick={() => setIsOpen(false)}
